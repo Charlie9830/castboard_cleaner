@@ -12,7 +12,7 @@ void main(List<String> arguments) {
   printInfo(
       'Please ensure that you are running this tool from inside the directory you wish to clean.');
   newLine();
-  printInfo('Current directory');
+  printInfo('Current directory:');
   printData(cwd.path);
 
   final shouldContinue = prompts.getBool('Continue?', appendYesNo: true);
