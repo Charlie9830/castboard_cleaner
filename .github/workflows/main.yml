@@ -8,10 +8,10 @@ jobs:
 
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [macOS-latest]
         include:
           - os: macOS-latest
-            output-name: hello-mac
+            output-name: castboard-cleaner-mac
 
     steps:
       - uses: actions/checkout@v1
